@@ -1,0 +1,16 @@
+a {
+    font-family: var(--font-mono);
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  p, li, h1, h2, h3, span {
+    font-family: var(--font-mono);
+    color: #111111;
+  }
+  
+  ol li{
+    font-family: var(--font-mono);
+    list-style-type: none;
+  }
+  

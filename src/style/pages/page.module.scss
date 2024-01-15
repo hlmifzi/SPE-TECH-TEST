@@ -1,0 +1,130 @@
+.terminalContainer {
+  position: relative;
+  top: -400px;
+  left: -50px;
+  transform: rotate(-30deg);
+  border-radius: 10px;
+  border: 15px solid #EEEEEE;
+  height: 500px;
+  width: 100%;
+  background: #111111;
+
+  p,
+  h1 {
+    color: #00FF00;
+  }
+
+  h1 {
+    position: absolute;
+    bottom: 16px;
+    left: 60px;
+  }
+
+  p {
+    font-size: 8px;
+    position: absolute;
+    bottom: 200px;
+    left: -40px;
+    transform: rotate(90deg);
+  }
+}
+
+.cartContainer {
+  padding: 16px;
+  background: #fff;
+}
+
+.cartItem {
+  display: grid;
+  grid-template-columns: 15% 45% 20% 20%;
+  grid-gap: 16px;
+  border-bottom: 1px solid #111111;
+  padding-top: 16px;
+
+  &:last-child {
+    margin-bottom: 32px;
+  }
+ 
+  img {
+    width: 100%;
+    min-height: 200px;
+    height: 200px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+  }
+}
+
+.descContainer {
+  & > p:first-child {
+    color: lightblue;
+    font-size: 12px;
+  }
+
+  & > p:nth-child(2) {
+    color: #545659;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  & > p:nth-child(3) {
+    color: #545659;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  & > p:last-child {
+    color: red;
+    font-size: 8px;
+    margin-top: 6px;
+  }
+}
+
+.inputQtyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtotalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 32px;
+  }
+}
+
+.input {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #545659;
+}
+
+@media (max-width: 1024px) {
+  .terminalContainer {
+    top: -100px;
+    transform: rotate(0deg);
+    width: calc(100vw + 50px);
+    left: -20px;
+
+
+    h1 {
+      font-size: 24px;
+      left: 0;
+      right: 0;
+      bottom: 42px;
+      text-align: center;
+    }
+
+    p {
+      transform: rotate(0deg);
+      left: 0;
+      right: 0;
+      bottom: 24px;
+      text-align: center;
+    }
+  }
+
+
+}

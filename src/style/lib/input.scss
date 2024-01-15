@@ -1,0 +1,19 @@
+input {
+    background: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    color: #545659;
+    cursor: pointer;
+    border: 1px solid #545659;
+
+    &:hover {
+        border: 1px solid #545659;
+    }
+
+    &:focus,
+    &:link {
+        border: 1px solid #545659;
+    }
+}

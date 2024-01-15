@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    align-items: center;
+    background: #111111;
+    min-height: 40px;
+
+    ol {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 60% 20% 20%;
+
+        li {
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+   
+}
+
+.userIcon {
+    border-radius: 100%;
+    background: var(--color-blackBeauty);
+    padding: 6px;
+}
